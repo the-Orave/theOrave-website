@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-10 md:grid-cols-3 md:px-6">
         <div className="space-y-3">
           <div className="flex items-center gap-3">
-            <Image src="/images/orave-logo-a.png" alt="Orave" width={110} height={28} className="h-7 w-auto" />
+            <Image src="/orave.png" alt="Orave" width={110} height={28} className="h-7 w-auto" />
             <span className="font-heading text-sm font-semibold text-[color:var(--spraygent-yellow)]">SPRAYGENT</span>
           </div>
           <p className="max-w-xs text-xs text-zinc-400">
