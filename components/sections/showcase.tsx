@@ -5,9 +5,9 @@ import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 
 const slides = [
-  { src: "/product/edge.png", alt: "Interface detail", caption: "SPRAYGENT EDGE" },
+  { src: "/product/edge.png", alt: "Interface detail", caption: "SPRAYGENT VIEW" },
  
-  { src: "/product/view.png", alt: "Side perspective", caption: "SPRAYGENT VIEW" },
+  { src: "/product/view.png", alt: "Side perspective", caption: "SPRAYGENT EDGE" },
   { src: "/product/prime.png", alt: "Front display", caption: "SPRAYGENT PRIME" },
 ]
 
@@ -16,7 +16,7 @@ export function Showcase() {
   const scrollBy = (delta: number) => track.current?.scrollBy({ left: delta, behavior: "smooth" })
 
   return (
-    <section id="showcase" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-20 md:px-6 md:py-28">
+    <section id="showcase" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-40 md:px-6 md:py-28">
       <div className="mb-6 flex items-end justify-between">
         <div>
           <h2 className="font-heading text-3xl font-semibold tracking-tight md:text-4xl">Product Showcase</h2>
@@ -38,13 +38,13 @@ export function Showcase() {
       >
         {slides.map((s, i) => (
           <figure key={i} className="group relative w-[82%] min-w-[82%] snap-center md:w-[48%] md:min-w-[48%]">
-            <div className="overflow-hidden rounded-xl border border-white/10 bg-zinc-900">
+            <div className="overflow-hidden rounded-xl border border-white/10 bg-zinc-900 h-full">
               <Image
                 src={s.src || "/placeholder.svg"}
                 alt={s.alt}
                 width={1400}
                 height={900}
-                className="w-full grayscale transition duration-500 group-hover:grayscale-0 group-hover:scale-[1.03]"
+                className="w-full h-full object-cover transition duration-500"
               />
             </div>
             <figcaption className="mt-3 text-sm text-zinc-400">{s.caption}</figcaption>

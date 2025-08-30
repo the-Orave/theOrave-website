@@ -19,7 +19,7 @@ export function NavBar() {
       }`}
       role="banner"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-1.5 md:px-6 min-h-[48px]">
         <a
           href="#hero"
           className="flex items-center gap-3"
@@ -35,17 +35,16 @@ export function NavBar() {
           }}
         >
           <Image 
-            src="/images/orave-logo-a.png" 
+            src="/orave.png" 
             alt="Orave logo" 
-            width={160} 
-            height={160} 
-            className="h-16 w-auto object-cover rounded-md" 
-            style={{ objectPosition: 'center' }}
+            width={120} 
+            height={40} 
+            className="h-5 w-auto object-contain" 
           />
           <span className="sr-only">Orave | Spraygent</span>
         </a>
 
-        <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-6 md:flex absolute left-1/2 transform -translate-x-1/2">
           <a
             href="#about"
             className="text-sm text-zinc-300 hover:text-white"
@@ -117,7 +116,7 @@ export function NavBar() {
             className="rounded-full bg-[color:var(--orave-teal)] px-5 text-black transition-all hover:opacity-90 active:scale-[0.98] focus-visible:ring-2 focus-visible:ring-[color:var(--spraygent-yellow)]"
           >
             <a
-              href="https://wa.me/your-number"
+              href="https://wa.me/9482202591"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Connect with us on WhatsApp"
