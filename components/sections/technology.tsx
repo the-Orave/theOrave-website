@@ -14,8 +14,8 @@ export function Technology() {
       <div className="grid gap-6 md:grid-cols-3">
         <TechCard
           icon={<Brain className="h-6 w-6 text-[color:var(--orave-teal)]" aria-hidden />}
-          title="AI Integration"
-          text="Smart scent suggestions based on season, time, and preference."
+          title="Smart Cloud Integration"
+          text="Cloud-based scent management and synchronization across devices."
         />
         <TechCard
           icon={<Wifi className="h-6 w-6 text-[color:var(--spraygent-yellow)]" aria-hidden />}

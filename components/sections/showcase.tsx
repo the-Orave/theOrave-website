@@ -5,9 +5,9 @@ import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 
 const slides = [
-  { src: "/product/prime.png", alt: "Front display", caption: "PRIME" },
-  { src: "/product/view.png", alt: "Side perspective", caption: "VIEW" },
-  { src: "/product/edge.png", alt: "Interface detail", caption: "EDGE" },
+  { src: "/product/prime.png", alt: "Front display", caption: "SPRAYGENT PRIME" },
+  { src: "/product/view.png", alt: "Side perspective", caption: "SPRAYGENT VIEW" },
+  { src: "/product/edge.png", alt: "Interface detail", caption: "SPRAYGENT EDGE" },
 ]
 
 export function Showcase() {
