@@ -35,7 +35,7 @@ export function Showcase() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <figcaption className="mt-3 text-sm text-zinc-400 text-center">
+            <figcaption className="mt-3 text-sm font-bold text-zinc-400 text-center">
               {s.caption}
             </figcaption>
           </figure>
