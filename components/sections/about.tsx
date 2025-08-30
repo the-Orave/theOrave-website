@@ -25,7 +25,7 @@ export function About() {
 
         <div>
           <div className="grid grid-cols-2 gap-4">
-            <figure className="group overflow-hidden rounded-xl border border-white/10 bg-gray">
+            <figure className="group overflow-hidden rounded-xl border border-white/10 bg-zinc-900">
               <Image
                 src="/product/edge.png"
                 alt="Spraygent machine, side perspective"
@@ -34,7 +34,7 @@ export function About() {
                 className="w-full transition duration-500  group-hover:scale-[1.03]"
               />
             </figure>
-            <figure className="group overflow-hidden rounded-xl border border-white/10">
+            <figure className="group overflow-hidden rounded-xl border border-white/10 bg-zinc-900">
               <Image
                 src="/hero.png"
                 alt="Spraygent front display illuminated"
