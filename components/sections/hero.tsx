@@ -80,12 +80,7 @@ export function Hero() {
               width={1400}
               height={980}
               priority
-              className="w-full select-none rounded-2xl border border-white/20 bg-white/5 shadow-[0_0_120px_rgba(0,194,201,0.3),0_0_200px_rgba(0,194,201,0.15),0_0_300px_rgba(0,194,201,0.1)]"
-            />
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-x-24 -bottom-8 h-32 rounded-full blur-3xl"
-              style={{ background: "radial-gradient(55% 60% at 50% 50%, rgba(0,194,201,0.4), rgba(0,194,201,0.2), rgba(0,0,0,0))" }}
+              className="w-full select-none rounded-2xl  drop-shadow-[0_0_80px_rgba(0,194,201,0.6)] drop-shadow-[0_0_120px_rgba(0,194,201,0.4)] drop-shadow-[0_0_160px_rgba(0,194,201,0.2)]"
             />
           </div>
         </div>
