@@ -27,7 +27,7 @@ export function About() {
           <div className="grid grid-cols-2 gap-4">
             <figure className="group overflow-hidden rounded-xl border border-white/10 bg-gray">
               <Image
-                src="/images/spraygent-side.png"
+                src="/product/edge.png"
                 alt="Spraygent machine, side perspective"
                 width={900}
                 height={900}
