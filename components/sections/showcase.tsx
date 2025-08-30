@@ -7,7 +7,7 @@ const slides = [
   { src: "/product/edge.png", alt: "Interface detail", caption: "SPRAYGENT EDGE" },
  
   { src: "/product/view.png", alt: "Side perspective", caption: "SPRAYGENT VIEW" },
-  { src: "/product/prime.png", alt: "Front display", caption: "SPRAYGENT PRIME" },
+  { src: "/hero.png", alt: "Front display", caption: "SPRAYGENT PRIME" },
 ]
 
 export function Showcase() {
