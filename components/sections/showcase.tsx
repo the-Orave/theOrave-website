@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button"
 
 const slides = [
   { src: "/hero.png", alt: "Front display", caption: "SPRAYGENT PRIME" },
-  { src: "/product/edge.png", alt: "Interface detail", caption: "SPRAYGENT EDGE" },
+  { src: "/product/edge.png", alt: "Interface detail", caption: "SPRAYGENT VIEW" },
  
-  { src: "/product/view.png", alt: "Side perspective", caption: "SPRAYGENT VIEW" },
+  { src: "/product/view.png", alt: "Side perspective", caption: "SPRAYGENT EDGE" },
   
 ]
 
