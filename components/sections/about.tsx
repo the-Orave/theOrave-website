@@ -31,7 +31,7 @@ export function About() {
                 alt="Spraygent machine, side perspective"
                 width={900}
                 height={900}
-                className="w-full grayscale transition duration-500 group-hover:grayscale-0 group-hover:scale-[1.03]"
+                className="w-full transition duration-500  group-hover:scale-[1.03]"
               />
             </figure>
             <figure className="group overflow-hidden rounded-xl border border-white/10">
@@ -40,7 +40,7 @@ export function About() {
                 alt="Spraygent front display illuminated"
                 width={900}
                 height={900}
-                className="w-full grayscale transition duration-500 group-hover:grayscale-0 group-hover:scale-[1.03]"
+                className="w-full  transition duration-500  group-hover:scale-[1.03]"
               />
             </figure>
           </div>

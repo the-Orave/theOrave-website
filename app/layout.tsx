@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Orave | Spraygent",
+  title: "Orave",
   description: "Revolutionizing Perfume Access – Luxury in Every Spray",
     generator: 'sai',
     icons: {

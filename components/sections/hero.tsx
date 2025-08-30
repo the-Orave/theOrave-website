@@ -36,17 +36,7 @@ export function Hero() {
       />
       <div className="relative z-10 mx-auto max-w-7xl px-4 text-center md:px-6 py-20">
         <div className="mb-6 flex items-center justify-center gap-4 opacity-90">
-          <div className="relative overflow-hidden rounded-lg">
-            <Image 
-              src="/orave.png" 
-              alt="Orave wordmark" 
-                width={100} 
-                height={100}
-              className="h-6 w-auto object-cover object-center" 
-              
-            />
-          </div>
-          <span className="text-3xl text-zinc-500">|</span>
+         
           <span className="font-heading text-2xl tracking-[0.35em] text-[color:var(--spraygent-yellow)]">SPRAYGENT</span>
         </div>
 
