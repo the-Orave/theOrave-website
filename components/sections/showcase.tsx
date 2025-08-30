@@ -51,35 +51,17 @@ export function Showcase() {
         ))}
       </div>
 
-      {/* Faux 3D rotating mockup */}
-      <div className="mt-12 grid gap-8 md:grid-cols-2 md:items-center">
-        <div className="relative mx-auto w-full max-w-md [perspective:1400px]">
-          <div className="relative aspect-[4/3] w-full rounded-2xl border border-white/10 bg-zinc-900/40 shadow-inner [transform-style:preserve-3d] [animation:turn_14s_ease-in-out_infinite]">
-            <Image
-              src="/images/spraygent-side.png"
-              alt="Rotating mockup"
-              width={1200}
-              height={900}
-              className="absolute inset-0 h-full w-full rounded-2xl object-cover opacity-90"
-            />
-          </div>
-          <style>{`@keyframes turn{0%{transform:rotateY(-12deg)}50%{transform:rotateY(12deg)}100%{transform:rotateY(-12deg)}}`}</style>
+      {/* Info section */}
+      <div className="mt-12">
+        <div className="relative w-full">
+          <Image
+            src="/info.png"
+            alt="Product information"
+            width={1200}
+            height={800}
+            className="w-full h-auto rounded-2xl"
+          />
         </div>
-
-        <ul className="grid gap-4 text-sm text-zinc-300">
-          <li className="rounded-xl border border-white/10 bg-gradient-to-b from-zinc-900/40 to-black p-5">
-            <strong className="text-white">Precision Dosing</strong>
-            <div className="text-zinc-400">Consistent spray volume with hygienic atomization.</div>
-          </li>
-          <li className="rounded-xl border border-white/10 bg-gradient-to-b from-zinc-900/40 to-black p-5">
-            <strong className="text-white">AI Selection</strong>
-            <div className="text-zinc-400">Context-aware recommendations to delight customers.</div>
-          </li>
-          <li className="rounded-xl border border-white/10 bg-gradient-to-b from-zinc-900/40 to-black p-5">
-            <strong className="text-white">IoT Connected</strong>
-            <div className="text-zinc-400">Remote telemetry, inventory, and secure updates.</div>
-          </li>
-        </ul>
       </div>
     </section>
   )

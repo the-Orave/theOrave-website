@@ -14,7 +14,10 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Orave | Spraygent",
   description: "Revolutionizing Perfume Access – Luxury in Every Spray",
-    generator: 'sai'
+    generator: 'sai',
+    icons: {
+      icon: '/logo.png',
+    }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

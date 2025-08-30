@@ -34,7 +34,14 @@ export function NavBar() {
             window.scrollTo({ top, behavior: "smooth" })
           }}
         >
-          <Image src="/images/orave-logo-a.png" alt="Orave logo" width={112} height={112} className="h-10 w-auto" />
+          <Image 
+            src="/images/orave-logo-a.png" 
+            alt="Orave logo" 
+            width={160} 
+            height={160} 
+            className="h-16 w-auto object-cover rounded-md" 
+            style={{ objectPosition: 'center' }}
+          />
           <span className="sr-only">Orave | Spraygent</span>
         </a>
 
